@@ -1,2 +1,2 @@
-cmd /c powershell.exe Add-Type -AssemblyName PresentationFramework
+powershell.exe Add-Type -AssemblyName PresentationFramework
 [System.Windows.MessageBox]::Show('Hello Madapaka', 'MessageBox Example')
